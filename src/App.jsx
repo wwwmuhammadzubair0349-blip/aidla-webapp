@@ -1,9 +1,10 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Layout from "./components/layout";
-import RequireAuth from "./components/RequireAuth";
-import RequireAdmin from "./components/RequireAdmin";
+import Layout from "./components/Layout";
+
+import RequireAuth from "./Components/RequireAuth";
+import RequireAdmin from "./Components/Requireadmin";
 
 import Home from "./pages/home";
 import About from "./pages/about";
