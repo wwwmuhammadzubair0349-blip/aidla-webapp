@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Layout from "./src/Components/Layout";
+import Layout from "../Components/Layout";
 
 import RequireAuth from "../src/Components/RequireAuth";
 import RequireAdmin from "../src/Components/Requireadmin";
