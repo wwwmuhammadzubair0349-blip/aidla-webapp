@@ -1,40 +1,40 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Layout from "./Components/Layout";
+import Layout from "../src/Components/Layout";
 
-import RequireAuth from "./src/Components/RequireAuth";
-import RequireAdmin from "./src/Components/Requireadmin";
+import RequireAuth from "../src/Components/RequireAuth";
+import RequireAdmin from "../src/Components/Requireadmin";
 
-import Home from "./src/pages/home";
-import About from "./src/pages/about";
-import Blogs from "./src/pages/blogs";
-import BlogPost from "./src/pages/BlogPost";
-import News from "./src/pages/News";
-import NewsPost from "./src/pages/NewsPost"; // ✅ NEW
-import FAQs from "./src/pages/FAQs";
-import Contact from "./src/pages/Contact";
+import Home from "../src/pages/home";
+import About from "../src/pages/about";
+import Blogs from "../src/pages/blogs";
+import BlogPost from "../src/pages/BlogPost";
+import News from "../src/pages/News";
+import NewsPost from "../src/pages/NewsPost"; // ✅ NEW
+import FAQs from "../src/pages/FAQs";
+import Contact from "../src/pages/Contact";
 
-import Signup from "./src/pages/signup";
-import Login from "./src/pages/login";
+import Signup from "../src/pages/signup";
+import Login from "../src/pages/login";
 
-import Dashboard from "./src/pages/Dashboard";
-import ChooseSide from "./src/pages/ChooseSide";
+import Dashboard from "../src/pages/Dashboard";
+import ChooseSide from "../src/pages/ChooseSide";
 
-import AdminDashboard from "./src/pages/AdminDashboard";
-import AdminBlogs from "./src/pages/adminblogs";
-import HomeManager from "./src/pages/admin/HomeManager";
-import AdminShopManagement from "./src/pages/admin/AdminShopManagement";
-import AdminPurchaseRequests from "./src/pages/admin/adminpurchaserequests";
-import AdminInquiries from "./src/pages/admin/admininquiries";
-import AdminNewsManager from "./src/pages/admin/AdminNewsManager"; // ✅ NEW
+import AdminDashboard from "../src/pages/AdminDashboard";
+import AdminBlogs from "../src/pages/adminblogs";
+import HomeManager from "../src/pages/admin/HomeManager";
+import AdminShopManagement from "../src/pages/admin/AdminShopManagement";
+import AdminPurchaseRequests from "../src/pages/admin/adminpurchaserequests";
+import AdminInquiries from "../src/pages/admin/admininquiries";
+import AdminNewsManager from "../src/pages/admin/AdminNewsManager"; // ✅ NEW
 
-import Shop from "./src/pages/shop/shop";
-import Cart from "./src/pages/shop/cart";
-import Purchase from "./src/pages/shop/purchase";
-import ShopHistory from "./src/pages/shop/shophistory";
+import Shop from "../src/pages/shop/shop";
+import Cart from "../src/pages/shop/cart";
+import Purchase from "../src/pages/shop/purchase";
+import ShopHistory from "../src/pages/shop/shophistory";
 
-import NotFound from "./src/pages/NotFound";
+import NotFound from "../src/pages/NotFound";
 
 export default function App() {
   return (
